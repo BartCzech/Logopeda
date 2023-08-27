@@ -10,7 +10,7 @@ const About = () => {
       <Hero 
         cName="hero-mid"
         heroImage={momImage}
-        title="O mnie"
+        title="Kim jestem?"
         btnClass="hide"
       />
     </>

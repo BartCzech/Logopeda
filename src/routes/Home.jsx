@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import therapistImage from '../assets/therapist.jpg';
+import Value from "../components/Value";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         url="/"
         btnClass="show"
       />
+      <Value/>
     </>
   );
 };
