@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import therapistImage from '../assets/therapist.jpg';
 import Value from "../components/Value";
+import Offer from "../components/Offer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         btnClass="show"
       />
       <Value/>
+      <Offer/>
     </>
   );
 };
