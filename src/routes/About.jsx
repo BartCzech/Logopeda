@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import momImage from '../assets/mama.jpg';
 import Footer from "../components/Footer";
+import AboutMe from "../components/AboutMe";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
         title="Kim jestem?"
         btnClass="hide"
       />
+      <AboutMe/>
       <Footer/>
     </>
   );

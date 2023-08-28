@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import contactImage from '../assets/contact.jpg';
 import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
         title="Skontaktuj się ze mną!"
         btnClass="hide"
       />
+      <ContactForm/>
       <Footer/>
     </>
   )
