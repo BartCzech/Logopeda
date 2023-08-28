@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import therapistImage from '../assets/therapist.jpg';
 import Value from "../components/Value";
 import Offer from "../components/Offer";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       />
       <Value/>
       <Offer/>
+      <Footer/>
     </>
   );
 };
