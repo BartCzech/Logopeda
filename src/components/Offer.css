@@ -44,7 +44,7 @@
     .offercard {
         flex-direction: column;
     }
-    o-card {
+    .o-card {
         width: 100%;
         margin-bottom: 1.5rem;
     }
