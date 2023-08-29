@@ -12,10 +12,10 @@ const Offer = () => {
       <div className="offercard">
         <OfferData image={therapy2Image}
         heading="Diagnoza logopedyczna"
-        text="Nasza bezpłatna konsultacja wstępna ma na celu zrozumienie Twoich potrzeb i celów. W trakcie tej sesji omówimy Twoje wyzwania, odpowiemy na wszelkie pytania i przedstawimy spersonalizowany plan na Twoją podróż terapii mowy. Pracujmy razem, aby odblokować Twój pełny potencjał w komunikacji!" />
+        text="Nasza konsultacja wstępna ma na celu zrozumienie Twoich potrzeb i celów. W trakcie tej sesji omówimy Twoje wyzwania, odpowiemy na wszelkie pytania i przedstawimy spersonalizowany plan na Twoją podróż terapii mowy. " />
         <OfferData image={therapy3Image}
         heading="Terapia logopedyczna"
-        text="Ten rodzaj lekcji został stworzony, aby pomóc Ci zdobyć umiejętności i pewność siebie potrzebne do efektywnej komunikacji w różnych sytuacjach. Ten kompleksowy pakiet obejmuje spersonalizowane sesje indywidualne, dostosowane ćwiczenia i praktyczne strategie. Niezależnie czy chcesz doskonalić sztukę publicznego przemawiania, relacji społecznych czy komunikacji zawodowej, jesteśmy tutaj, aby Cię prowadzić na każdym etapie." />
+        text="Ten rodzaj zajęć ma na celu pomóc Ci zdobyć umiejętności i pewność siebie potrzebne do efektywnej komunikacji w różnych sytuacjach." />
         {/* <OfferData image={therapy4Image}
         heading="Kinezjotaping"
         text="" /> */}
