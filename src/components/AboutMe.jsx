@@ -30,7 +30,7 @@ const AboutMe = () => {
         mną. Razem ustalimy cele terapii i stworzymy plan dostosowany do Twoich
         potrzeb.
       </p>
-      <p>Zapraszam do współpracy!</p>
+      <p style={{ paddingBottom: '2rem' }}>Zapraszam do współpracy!</p>
 
       <h1>Odbyte kursy i szkolenia:</h1>
       <p>•	Terapia miofunkcjonalna w wieku 9-99 lat ze specjalną terapią zaburzeń artykulacyjnych głosek s/sz wg A. Kittel.</p>
