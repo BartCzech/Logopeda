@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div>
                 <h4>Jak się skontaktować?</h4>
-                <p>przyklad@gmail.com</p>
+                <p>wiolaczech@gmail.com</p>
                 <p>+48 600 377 044</p>
             </div>
             <div>
