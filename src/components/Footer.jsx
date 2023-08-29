@@ -29,7 +29,7 @@ const Footer = () => {
                 <h4>Na skróty</h4>
                 <a href="/">Główna</a>
                 <a href="/o-mnie">O mnie</a>
-                <a href="/lekcje">Lekcje</a>
+                <a href="/zajecia">Zajęcia</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
         </div>
