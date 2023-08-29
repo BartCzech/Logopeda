@@ -1,29 +1,48 @@
-import "./AboutMe.css"
+import "./AboutMe.css";
 
-import React from 'react'
+import React from "react";
 
 const AboutMe = () => {
   return (
     <div className="about-container">
-        <h1>Witaj na mojej stronie!</h1>
-      <p>Cześć, jestem [Twoje imię] – logopeda z pasją do pracy nad poprawą komunikacji i umiejętności językowych.</p>
-      
-      <h1>Moja historia</h1>
-      <p>Od wielu lat pomagam ludziom osiągać swoje cele związane z mową i komunikacją. To, co napędza mnie w mojej pracy, to widok moich pacjentów osiągających postępy i odzyskujących pewność siebie w komunikacji.</p>
-      
-      <h1>Moja misja</h1>
-      <p>Moim celem jest dostarczenie skutecznej i dostosowanej terapii dla każdego pacjenta. Wierzę, że każda osoba ma unikalne potrzeby i cele, dlatego pracuję indywidualnie nad poprawą wymowy, artykulacji i innych aspektów mowy.</p>
-      
-      <h1>Co oferuję</h1>
-      <p>Specjalizuję się w pracy z osobami w różnym wieku – od dzieci z opóźnieniami mowy po dorosłych z problemami głosowymi. Pomagam poprawić płynność mowy, wyraźność, a także rozwijać umiejętności społeczne związane z komunikacją.</p>
-      
-      <h1>Jak możemy współpracować?</h1>
-      <p>Jeśli szukasz wsparcia w poprawie mowy, terapii dla swojego dziecka lub rozwoju umiejętności komunikacyjnych, zapraszam do skontaktowania się ze mną. Razem ustalimy cele terapii i stworzymy plan dostosowany do Twoich potrzeb.</p>
-      
-      <h1>Zapraszam do działania!</h1>
-      <p>Zachęcam Cię do zapoznania się z moją stroną i dowiedzenia się więcej o tym, jak mogę Ci pomóc w poprawie komunikacji. Cieszę się na możliwość pracy z Tobą i wsparcia Cię w osiągnięciu Twoich celów.</p>
-    </div>
-  )
-}
+      <h1>mgr Wioletta Czech</h1>
+      <p>
+        Jestem logopedą i filologiem polskim. Swą wiedzę nieustannie poszerzam
+        na licznych szkoleniach logopedycznych. Jestem również certyfikowanym
+        terapeutą miofunkcjonalnym.{" "}
+      </p>
+      <p>
+        Zajmuję się terapią wad wymowy dzieci w wieku przedszkolnym i szkolnym.{" "}
+      </p>
+      <p>
+        Moim celem jest dostarczenie skutecznej i dostosowanej terapii dla
+        każdego pacjenta. Największą satysfakcję sprawia mi postęp w terapii,
+        kiedy można zaobserwować, że trud zarówno mojego pacjenta, jak i mój
+        przynosi pożądane efekty.
+      </p>
+      <p>
+        Każda osoba ma unikalne potrzeby i cele, dlatego pracuję indywidualnie
+        nad poprawą wymowy, artykulacji i innych aspektów mowy.{" "}
+      </p>
+      <p>
+        Jeśli szukasz wsparcia w poprawie mowy, terapii dla swojego dziecka lub
+        rozwoju umiejętności komunikacyjnych, zapraszam do skontaktowania się ze
+        mną. Razem ustalimy cele terapii i stworzymy plan dostosowany do Twoich
+        potrzeb.
+      </p>
+      <p>Zapraszam do współpracy!</p>
 
-export default AboutMe
+      <h1>Odbyte kursy i szkolenia:</h1>
+      <p>•	Terapia miofunkcjonalna w wieku 9-99 lat ze specjalną terapią zaburzeń artykulacyjnych głosek s/sz wg A. Kittel.</p>
+      <p>•	Rotacyzm – diagnoza i efektywna terapia logopedyczna.</p>
+      <p>•	Ankyloglosja – terapia przed i po zabiegu.</p>
+      <p>•	Seplenienie międzyzębowe – diagnoza, metody korekcji, terapia na podstawie głosek szeregu syczącego.</p>
+      <p>•	Mowa bezdźwięczna.</p>
+      <p>•	Trzy szeregi – głoski dentalizowane – diagnoza i terapia.</p>
+      <p>•	Dyslalia – terapia głosek.</p>
+      <p>•	Jąkanie – od teorii do praktyki.</p>
+    </div>
+  );
+};
+
+export default AboutMe;

@@ -13,8 +13,8 @@ const Home = () => {
       <Hero 
         cName="hero"
         heroImage={therapistImage}
-        title="Odkryj piękno w swoim głosie!"
-        text="Niech każde słowo stanie się przygodą, a każda rozmowa doświadczeniem pełnym radości."
+        title="Mowa otwiera drzwi..."
+        text="... które wcześniej były przed dzieckiem zamknięte. ~ Barry J. Wadsworth"
         btnText="Plan"
         url="/"
         btnClass="show"
