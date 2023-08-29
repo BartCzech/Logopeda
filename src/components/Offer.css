@@ -8,7 +8,7 @@
 .offercard {
     margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .o-card {
     width: 32%;
