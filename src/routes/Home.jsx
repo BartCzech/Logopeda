@@ -13,10 +13,10 @@ const Home = () => {
       <Hero 
         cName="hero"
         heroImage={therapistImage}
-        title="Mowa otwiera drzwi..."
-        text="... które wcześniej były przed dzieckiem zamknięte. ~ Barry J. Wadsworth"
-        btnText="Plan"
-        url="/"
+        title='"Mowa otwiera drzwi...'
+        text='... które wcześniej były przed dzieckiem zamknięte". ~ Barry J. Wadsworth'
+        btnText="Kim jestem?"
+        url="/o-mnie"
         btnClass="show"
       />
       <Value/>
