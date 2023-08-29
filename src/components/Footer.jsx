@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
         <div className="top">
             <div>
-                <h1>Logopeda Wiola</h1>
+                <h1>Logopeda Wioletta Czech</h1>
                 <p>Odkryj swój prawdziwy głos!</p>
             </div>
             <div>
