@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import therapistImage from '../assets/therapist.jpg';
+import officeImage from '../assets/office.jpg';
 import Value from "../components/Value";
 import Offer from "../components/Offer";
 import Footer from "../components/Footer";
@@ -12,15 +13,17 @@ const Home = () => {
       <Navbar />
       <Hero 
         cName="hero"
-        heroImage={therapistImage}
-        title='"Mowa otwiera drzwi...'
-        text='... które wcześniej były przed dzieckiem zamknięte". ~ Barry J. Wadsworth'
-        btnText="Kim jestem?"
-        url="/o-mnie"
+        heroImage={officeImage}
+        title='Gabinet logopedyczny'
+        text='Wioletta Czech'
+        btnText1="Kim jestem?"
+        btnText2="Oferta zajęć"
+        url1="/o-mnie"
+        url2="/oferta"
         btnClass="show"
       />
-      <Value/>
       <Offer/>
+      <Value/>
       <Footer/>
     </>
   );

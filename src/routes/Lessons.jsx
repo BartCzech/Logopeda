@@ -12,7 +12,7 @@ const Lessons = () => {
       <Hero 
         cName="hero-mid"
         heroImage={booksImage}
-        title="Zapisz się na darmową lekcję!"
+        title="Zapisz się na zajęcia ze mną!"
         btnClass="hide"
       />
       <Offer/>

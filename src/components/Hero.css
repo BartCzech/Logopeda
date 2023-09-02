@@ -31,8 +31,8 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
-.hero-text p {
-    font-size: 1.3rem;
+.hero-text h2 {
+    /* font-size: 1.3rem; */
     color: #fff;
     padding: 0.5rem 0 2rem 0;
 }
@@ -50,19 +50,29 @@ img {
 .hero-text .hide {
     display: none;
 }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 850px) {
+    .hero {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
     .hero-text h1 {
         padding: 10px 20px;
     }    
-    .hero-text p {
-        font-size: 1.1rem;
+    .hero-text h2 {
+        /* font-size: 1.1rem; */
         padding: 0 0 2rem 0;
     }
     .hero-text .show {
         padding: 0.6rem 1.1rem;
         border-radius: 6px;
         font-size: 1rem;
-        background: white;
+        /* background: red; */
     }
 }
