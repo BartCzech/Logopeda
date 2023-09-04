@@ -4,19 +4,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     width: 95%;
     height: 80px;
     border-radius: 13px;
     position: fixed;
     top: 20px;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     z-index: 9999;
 }
 .navbar-logo {
-    color: #222;
-    font-size: 2rem;
+    flex: 0; /* Prevent the logo from growing */
+    width: 100%; /* Make the logo fill the available width */
+    height: 70%; /* Make the logo fill the available height */
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+    margin: 10px; /* Add margin to the logo */
     cursor: pointer;
 }
 .nav-menu {

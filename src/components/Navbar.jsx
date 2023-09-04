@@ -2,16 +2,17 @@ import { Component } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
+import logo from "../assets/test-logo.png";
 
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
-    this.setState({clicked: !this.state.clicked});
-  }
+    this.setState({ clicked: !this.state.clicked });
+  };
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Logo</h1>
+        <img src={logo} className="navbar-logo"/>
         <div className="menu-icons" onClick={this.handleClick}>
           <i
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
