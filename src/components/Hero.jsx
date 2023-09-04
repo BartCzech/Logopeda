@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import therapistImage from "../assets/therapist.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = (props) => {
   return (
@@ -12,7 +13,9 @@ const Hero = (props) => {
           <h2>{props.text}</h2>
           <div className="buttons">
             <a href={props.url1} className={props.btnClass}>
-              {props.btnText1}
+              <Link className="link" to={props.url1}>
+                {props.btnText1}
+              </Link>
             </a>
             <a href={props.url2} className={props.btnClass}>
               {props.btnText2}

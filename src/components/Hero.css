@@ -55,7 +55,10 @@ img {
     justify-content: center;
     gap: 50px;
 }
-
+.link {
+    text-decoration: none;
+    color: #222;
+}
 @media screen and (max-width: 850px) {
     .hero {
         width: 100%;
