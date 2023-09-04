@@ -22,7 +22,7 @@ const Home = () => {
       <Hero
         cName="hero"
         heroImage={officeImage}
-        title="Gabinet logopedyczny"
+        title="Logopeda"
         text="Wioletta Czech"
         btnText1="Kim jestem?"
         btnText2="Oferta zajęć"

@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
-import logo from "../assets/test-logo.png";
+import logo from "../assets/logo-smaller.png";
 
 class Navbar extends Component {
   state = { clicked: false };

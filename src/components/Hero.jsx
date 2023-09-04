@@ -18,7 +18,9 @@ const Hero = (props) => {
               </Link>
             </a>
             <a href={props.url2} className={props.btnClass}>
-              {props.btnText2}
+              <Link className="link" to={props.url2}>
+                {props.btnText2}
+              </Link>
             </a>
           </div>
         </div>
