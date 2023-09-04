@@ -12,10 +12,14 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Logopeda Czechowice</title>
+        <title>Logopeda Wioletta Czech - Czechowice-Dziedzice</title>
         <meta
           name="description"
-          content="This is the description of my home page."
+          content="Wioletta Czech - Logopeda specjalizująca się w pracy z dziećmi. Oferuje diagnozę oraz terapię logopedyczną, pomoc logopedyczną dla dzieci oraz rozwój płynnej mowy u dziecka w Czechowicach-Dziedzicach."
+        />
+        <meta
+          name="keywords"
+          content="logopeda, Wioletta Czech, terapia logopedyczna, pomoc logopedyczna dla dzieci, rozwój mowy, specjalista Czechowice"
         />
       </Helmet>
       <Navbar />
