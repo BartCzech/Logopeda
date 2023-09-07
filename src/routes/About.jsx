@@ -9,12 +9,12 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <Hero 
+      {/* <Hero 
         cName="hero-mid"
         heroImage={momImage}
-        // title="Kim jestem?"
+        title="Kim jestem?"
         btnClass="hide"
-      />
+      /> */}
       <AboutMe/>
       <Footer/>
     </>
