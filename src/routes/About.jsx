@@ -12,7 +12,7 @@ const About = () => {
       <Hero 
         cName="hero-mid"
         heroImage={momImage}
-        title="Kim jestem?"
+        // title="Kim jestem?"
         btnClass="hide"
       />
       <AboutMe/>

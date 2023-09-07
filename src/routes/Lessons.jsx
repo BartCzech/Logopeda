@@ -9,12 +9,12 @@ const Lessons = () => {
   return (
     <>
       <Navbar />
-      <Hero 
+      {/* <Hero 
         cName="hero-mid"
         heroImage={booksImage}
         title="Zapisz się na zajęcia ze mną!"
         btnClass="hide"
-      />
+      /> */}
       <Offer/>
       <Footer/>
 

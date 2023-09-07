@@ -10,12 +10,12 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <Hero 
+      {/* <Hero 
         cName="hero-mid"
         heroImage={contactImage}
         title="Skontaktuj się ze mną!"
         btnClass="hide"
-      />
+      /> */}
       <Action
       first="Numer telefonu: 600377044"
       second="Adres email: biuro@logopeda-czechowice.pl"
