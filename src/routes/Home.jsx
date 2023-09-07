@@ -28,9 +28,9 @@ const Home = () => {
         heroImage={therapistImage}
         title="Logopeda"
         text="Wioletta Czech"
-        btnText1="Kim jestem?"
+        btnText1="Umów się na konsultację"
         btnText2="Oferta zajęć"
-        url1="/o-mnie"
+        url1="/kontakt"
         url2="/oferta"
         btnClass="show"
       />
