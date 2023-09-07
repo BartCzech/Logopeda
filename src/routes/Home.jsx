@@ -23,9 +23,9 @@ const Home = () => {
         />
       </Helmet>
       <Navbar />
-      {/* <Hero
+      <Hero
         cName="hero"
-        heroImage={officeImage}
+        heroImage={therapistImage}
         title="Logopeda"
         text="Wioletta Czech"
         btnText1="Kim jestem?"
@@ -33,7 +33,7 @@ const Home = () => {
         url1="/o-mnie"
         url2="/oferta"
         btnClass="show"
-      /> */}
+      />
       <Value />
       <Offer />
       <Footer />
