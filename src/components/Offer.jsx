@@ -10,7 +10,7 @@ const Offer = () => {
     <>
       <div className="offer">
         <h1>Oferta zajęć</h1>
-        <p>Zapraszam Cię na następujące zajęcia:</p>
+        <h2>Zapraszam Cię na następujące zajęcia:</h2>
         <div className="offercard">
           <OfferData
             image={therapy2Image}
