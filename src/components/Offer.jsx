@@ -28,9 +28,9 @@ const Offer = () => {
         </div>
       </div>
       <Action 
-      first="Zadzwoń pod numer 600377044"
-      second="Napisz na wiolaczech@gmail.com"
-      third='Lub skorzystaj z zakładki "Kontakt" :)'
+      first="Zadzwoń pod numer "
+      second="Lub napisz na "
+      // third='Lub skorzystaj z zakładki "Kontakt" :)'
       />
     </>
   );

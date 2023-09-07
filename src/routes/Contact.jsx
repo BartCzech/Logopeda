@@ -17,8 +17,8 @@ const Contact = () => {
         btnClass="hide"
       /> */}
       <Action
-      first="Numer telefonu: 600377044"
-      second="Adres email: biuro@logopeda-czechowice.pl"
+      first="Numer telefonu: "
+      second="Adres email: "
       />
       <ContactForm/>
       <Footer/>
