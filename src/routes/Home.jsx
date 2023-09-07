@@ -12,14 +12,14 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Logopeda Czechowice-Dziedzice. Specjalista Logopedii. Wioletta Czech</title>
+        <title>Logopeda Czechowice-Dziedzice. Specjalista Logopedii Wioletta Czech</title>
         <meta
           name="description"
-          content="Wioletta Czech - Logopeda specjalizująca się w pracy z dziećmi. Oferuje diagnozę oraz terapię logopedyczną, pomoc logopedyczną dla dzieci oraz rozwój płynnej mowy u dziecka w Czechowicach-Dziedzicach."
+          content="Skuteczna terapia logopedyczna w Czechowicach-Dziedzicach. Popraw mowę i komunikację. Indywidualne sesje z doświadczonym logopedą. Zadzwoń już dziś!"
         />
         <meta
           name="keywords"
-          content="logopeda, Wioletta Czech, terapia logopedyczna, pomoc logopedyczna dla dzieci, rozwój mowy, specjalista Czechowice"
+          content="Logopeda Czechowice-Dziedzice,Terapia Logopedyczna,Logopeda dla dzieci,Pomoc logopedyczna,Terapia mowy,Korekcja Wad Mowy"
         />
       </Helmet>
       <Navbar />
