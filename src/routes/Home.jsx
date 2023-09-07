@@ -34,8 +34,8 @@ const Home = () => {
         url2="/oferta"
         btnClass="show"
       /> */}
-      <Offer />
       <Value />
+      <Offer />
       <Footer />
     </>
   );
