@@ -26,8 +26,8 @@ const Home = () => {
       <Hero
         cName="hero"
         heroImage={therapistImage}
-        title="Logopeda"
-        text="Wioletta Czech"
+        title="Profesjonalna terapia logopedyczna dla Najmłodszych"
+        text="Wsparcie w rozwoju mowy dla Twojego dziecka"
         btnText1="Umów się na konsultację"
         btnText2="Oferta zajęć"
         url1="/kontakt"
