@@ -18,7 +18,7 @@ const Contact = () => {
       />
       <Action
       first="Numer telefonu: 600377044"
-      second="Adres email: wiolaczech@gmail.com"
+      second="Adres email: biuro@logopeda-czechowice.pl"
       />
       <ContactForm/>
       <Footer/>

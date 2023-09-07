@@ -23,7 +23,7 @@ const Home = () => {
         />
       </Helmet>
       <Navbar />
-      <Hero
+      {/* <Hero
         cName="hero"
         heroImage={officeImage}
         title="Logopeda"
@@ -33,7 +33,7 @@ const Home = () => {
         url1="/o-mnie"
         url2="/oferta"
         btnClass="show"
-      />
+      /> */}
       <Offer />
       <Value />
       <Footer />
