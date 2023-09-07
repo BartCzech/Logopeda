@@ -7,13 +7,12 @@ const Footer = () => {
       <div className="top">
         <div>
           <h1>Logopeda Wioletta Czech</h1>
-          <p>Odkryj swój prawdziwy głos!</p>
         </div>
-        <div>
+        {/* <div>
           <a href="/">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="bottom">
         <div>
@@ -23,7 +22,7 @@ const Footer = () => {
         </div>
         <div>
           <h4>Jak się skontaktować?</h4>
-          <p>wiolaczech@gmail.com</p>
+          <p>biuro@logopeda-czechowice.pl</p>
           <p>+48 600 377 044</p>
         </div>
         <div>
