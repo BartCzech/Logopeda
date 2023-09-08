@@ -8,7 +8,7 @@ import ValueData from "./ValueData";
 const Value = () => {
   return (
     <div className="value">
-      <h1>Jak mogę pomóc Twojemu dziecku?</h1>
+      {/* <h1>Jak mogę pomóc Twojemu dziecku?</h1> */}
       {/* <p>Uczęszczając na zajęcia ze mną, możesz liczyć na długoterminowe:</p> */}
       <ValueData
         className="first-des"
