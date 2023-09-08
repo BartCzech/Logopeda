@@ -22,7 +22,8 @@
     padding-top: 2rem;
     text-align: start;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 50px;
     flex-wrap: wrap;
 }
 .bottom div{
@@ -38,6 +39,10 @@
     color: #fafafa;
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
+}
+.bottom a {
+    color: #a2e2fc;
+
 }
 .unterschrift {
     color: rgb(98, 106, 98);

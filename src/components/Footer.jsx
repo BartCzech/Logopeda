@@ -16,17 +16,12 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div>
-          <h4>Gdzie znaleźć gabinet?</h4>
           <p>ul. Chabrowa 4A</p>
           <p>43-502 Czechowice-Dziedzice</p>
-        </div>
-        <div>
-          <h4>Jak się skontaktować?</h4>
           <p>biuro@logopeda-czechowice.pl</p>
           <p>+48 600 377 044</p>
         </div>
         <div>
-          <h4>Na skróty</h4>
           <a href="/">
             <Link to="/">Główna</Link>
           </a>
