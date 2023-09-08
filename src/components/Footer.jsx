@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="bottom">
         <div>
           <p>ul. Chabrowa 4A 43-502 Czechowice-Dziedzice</p>
-          <p> <a href="tel:600377044">600 377 044</a> <a href="mailto:biuro@logopeda-czechowice.pl">biuro@logopeda-czechowice.pl</a></p>
+          <p> <a href="tel:600377044">600 377 044</a> | <a href="mailto:biuro@logopeda-czechowice.pl">biuro@logopeda-czechowice.pl</a></p>
         </div>
         <div className="row-links">
           <a href="/">
