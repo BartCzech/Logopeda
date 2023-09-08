@@ -40,11 +40,11 @@ img {
 .hero-text .show {
   text-decoration: none;
   background: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 6px;
   font-size: 1.1rem;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #222;
 }
 .hero-text .hide {
@@ -81,5 +81,8 @@ img {
   .buttons {
     gap: 0px;
     justify-content: space-evenly;
+  }
+  .buttons a {
+    /* padding: 3px; */
   }
 }
