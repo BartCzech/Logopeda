@@ -1,5 +1,5 @@
 .footer {
-  padding: 4rem 6rem;
+  padding: 2rem 6rem;
   background: #000;
   color: #fff;
 }
@@ -46,6 +46,8 @@
 }
 .unterschrift {
   color: rgb(98, 106, 98);
+  margin-top: 20px;
+  padding-bottom: 0px;
 }
 .row-links {
   display: flex;
