@@ -26,11 +26,6 @@ const Offer = () => {
         text="" /> */}
         </div>
       </div>
-      <Action 
-      first="Zadzwoń pod numer "
-      second="Lub napisz na "
-      // third='Lub skorzystaj z zakładki "Kontakt" :)'
-      />
     </>
   );
 };
