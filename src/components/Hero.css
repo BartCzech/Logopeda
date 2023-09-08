@@ -79,8 +79,10 @@ img {
     /* background: red; */
   }
   .buttons {
-    gap: 0px;
-    justify-content: space-evenly;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* justify-content: space-evenly; */
   }
   .buttons a {
     /* padding: 3px; */

@@ -8,7 +8,7 @@
     align-items: center;
     text-align: start;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .top i {
     color: #fff;
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: left;
     gap: 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .bottom div{
     display: flex;
@@ -47,7 +47,10 @@
 .unterschrift {
     color: rgb(98, 106, 98);
 }
-
+.row-links {
+    display: flex;
+    flex-direction: row;
+}
 @media screen and (max-width: 850px){
     .footer{
         padding: 4rem 2rem;
