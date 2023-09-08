@@ -8,8 +8,14 @@ const AboutMe = () => {
   return (
     <div className="about-container">
       <div className="intro">
+        <OfferData
+          className="image"
+          heading="mgr Wioletta Czech"
+          image={momImage}
+        />
+
         <div className="text">
-          <h1>mgr Wioletta Czech</h1>
+          {/* <h1>mgr Wioletta Czech</h1> */}
           <p>
             Jestem logopedą i filologiem polskim. Swą wiedzę nieustannie
             poszerzam na licznych szkoleniach logopedycznych. Jestem również
@@ -19,28 +25,28 @@ const AboutMe = () => {
             Zajmuję się terapią wad wymowy dzieci w wieku przedszkolnym i
             szkolnym.{" "}
           </p>
+          <p>
+            Moim celem jest dostarczenie skutecznej i dostosowanej terapii dla
+            każdego pacjenta. Największą satysfakcję sprawia mi postęp w
+            terapii, kiedy można zaobserwować, że trud zarówno mojego pacjenta,
+            jak i mój przynosi pożądane efekty.
+          </p>
+          <p>
+            Każda osoba ma unikalne potrzeby i cele, dlatego pracuję
+            indywidualnie nad poprawą wymowy, artykulacji i innych aspektów
+            mowy.{" "}
+          </p>
+          <p>
+            Jeśli szukasz wsparcia w poprawie mowy, terapii dla swojego dziecka
+            lub rozwoju umiejętności komunikacyjnych, zapraszam do
+            skontaktowania się ze mną. Razem ustalimy cele terapii i stworzymy
+            plan dostosowany do Twoich potrzeb.
+          </p>
+          <p style={{ paddingBottom: "2rem" }}>Zapraszam do współpracy!</p>
         </div>
-        <div className="image">
-          <OfferData image={momImage} />
-        </div>
+        {/* <div className="image"> */}
+        {/* </div> */}
       </div>
-      <p>
-        Moim celem jest dostarczenie skutecznej i dostosowanej terapii dla
-        każdego pacjenta. Największą satysfakcję sprawia mi postęp w terapii,
-        kiedy można zaobserwować, że trud zarówno mojego pacjenta, jak i mój
-        przynosi pożądane efekty.
-      </p>
-      <p>
-        Każda osoba ma unikalne potrzeby i cele, dlatego pracuję indywidualnie
-        nad poprawą wymowy, artykulacji i innych aspektów mowy.{" "}
-      </p>
-      <p>
-        Jeśli szukasz wsparcia w poprawie mowy, terapii dla swojego dziecka lub
-        rozwoju umiejętności komunikacyjnych, zapraszam do skontaktowania się ze
-        mną. Razem ustalimy cele terapii i stworzymy plan dostosowany do Twoich
-        potrzeb.
-      </p>
-      <p style={{ paddingBottom: "2rem" }}>Zapraszam do współpracy!</p>
 
       <h1>Odbyte kursy i szkolenia:</h1>
       <p>
