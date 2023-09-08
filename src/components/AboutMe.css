@@ -21,4 +21,7 @@
     .about-container {
         margin: 4rem 2rem;
     }
+    .intro {
+        flex-direction: column;
+    }
 }
