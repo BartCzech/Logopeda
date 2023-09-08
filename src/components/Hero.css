@@ -89,7 +89,7 @@ img {
   }
 }
 
-@media screen and (max-height: 850px) and (min-width: 851px) {
+@media screen and (max-device-width: 850px) and (orientation: landscape) {
     .hero {
         width: 100%;
         height: 100vh;
