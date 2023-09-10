@@ -21,6 +21,7 @@ const Home = () => {
           name="keywords"
           content="Logopeda Czechowice-Dziedzice,Terapia Logopedyczna,Logopeda dla dzieci,Pomoc logopedyczna,Terapia mowy,Korekcja Wad Mowy"
         />
+        <link rel="canonical" href="https://www.logopeda-czechowice.pl/"></link>
       </Helmet>
       <Navbar />
       <Hero
