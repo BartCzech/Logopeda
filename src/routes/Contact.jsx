@@ -6,12 +6,16 @@ import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import Action from "../components/Action";
 import { Helmet } from "react-helmet";
+import "./Contact.css";
 
 const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Skontaktuj się z Logopedą - Profesjonalna Pomoc w Poprawie Mowy i Komunikacji</title>
+        <title>
+          Skontaktuj się z Logopedą - Profesjonalna Pomoc w Poprawie Mowy i
+          Komunikacji
+        </title>
         <meta
           name="description"
           content="Potrzebujesz pomocy logopedy? Skorzystaj z mojej ekspertyzy w terapii mowy i komunikacji. Skontaktuj się ze mną już dziś, aby umówić się na konsultację. Jestem tu, aby pomóc!"
@@ -25,16 +29,22 @@ const Contact = () => {
           href="https://www.logopeda-czechowice.pl/kontakt"
         ></link>
       </Helmet>
-      <Navbar />
-      {/* <Hero 
+      <div className="page-container">
+        <Navbar />
+        {/* <Hero 
         cName="hero-mid"
         heroImage={contactImage}
         title="Skontaktuj się ze mną!"
         btnClass="hide"
       /> */}
-      <Action first="Numer telefonu: " second="Adres email: " />
-      {/* <ContactForm /> */}
-      <Footer />
+        <div className="content-container">
+          <Action first="Numer telefonu: " second="Adres email: " />
+        </div>
+        {/* <ContactForm /> */}
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
     </>
   );
 };
