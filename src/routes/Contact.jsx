@@ -33,7 +33,7 @@ const Contact = () => {
         btnClass="hide"
       /> */}
       <Action first="Numer telefonu: " second="Adres email: " />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </>
   );
