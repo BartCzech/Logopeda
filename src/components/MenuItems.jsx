@@ -12,6 +12,12 @@ export const MenuItems = [
     icon: "fa-solid fa-briefcase",
   },
   {
+    title: "Rozwój mowy dziecka",
+    url: "/rozwoj",
+    cName: "nav-links",
+    icon: "fa-solid fa-child-reaching",
+  },
+  {
     title: "O mnie",
     url: "/o-mnie",
     cName: "nav-links",
