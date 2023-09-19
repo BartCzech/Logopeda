@@ -21,11 +21,14 @@ const Footer = () => {
           <a href="/">
             <Link to="/">Główna</Link>
           </a>
-          <a href="/o-mnie">
-            <Link to="/o-mnie">O mnie</Link>
-          </a>
           <a href="/oferta">
             <Link to="/oferta">Oferta</Link>
+          </a>
+          <a href="/rozwoj">
+            <Link to="/rozwoj">Rozwój dziecka</Link>
+          </a>
+          <a href="/o-mnie">
+            <Link to="/o-mnie">O mnie</Link>
           </a>
           <a href="/kontakt">
             <Link to="/kontakt">Kontakt</Link>
