@@ -14,12 +14,27 @@ const Offer = () => {
           <OfferData
             image={therapy2Image}
             heading="Diagnoza logopedyczna"
-            text="Nasza konsultacja wstępna ma na celu zrozumienie Twoich potrzeb i celów. W trakcie tej sesji omówimy Twoje wyzwania, odpowiemy na wszelkie pytania i przedstawimy spersonalizowany plan na Twoją podróż terapii mowy. "
+            text="Konsultacja wstępna ma na celu rozpoznanie problemu, z którym boryka się pacjent.
+            Logopeda podczas diagnozy dokonuje oceny rozwoju mowy dziecka i rozpoznaje wszelkie
+            nieprawidłowości pojawiające się w procesie komunikacji. Poprzez dokonanie trafnej
+            diagnozy określa charakter zaburzenia i jest w stanie znaleźć jego przyczynę, dostosować
+            odpowiednią terapię oraz stwierdzić, jakie są rokowania na przyszłość."
+            text2="Odpowiednia diagnoza, zrozumienie potrzeb dziecka jest punktem wyjścia do
+            kolejnych działań, których celem jest profesjonalna pomoc dziecku. Wszystko po to, aby jak
+            najprecyzyjniej dobrać metody pracy z małym pacjentem i przygotować spersonalizowany
+            plan na jego podróż terapii mowy."
           />
           <OfferData
             image={therapy3Image}
             heading="Terapia logopedyczna"
-            text="Ten rodzaj zajęć ma na celu pomóc Ci zdobyć umiejętności i pewność siebie potrzebne do efektywnej komunikacji w różnych sytuacjach."
+            text="Ten rodzaj zajęć pozwoli kompensować zaburzenia i deficyty mowy. Zajęcia
+            prowadzone są zgodnie z indywidualnym programem terapii, opracowanym na podstawie
+            fachowej diagnozy pacjenta. W trakcie sesji wykonywane są ćwiczenia – artykulacyjne,
+            słuchowe, fonacyjne oraz oddechowe, a dzieci mogą utrwalić prawidłowe wzorce mowy."
+            text2="Dzięki terapii Pacjenci usprawniają motorykę narządów artykulacyjnych, uczą się
+            artykulacji prawidłowych wzorców głosek,  poprawiają wydolność oddechową, poszerzają
+            zasób słownictwa, doskonalą umiejętność budowy zdań, poprawiają płynność mówienia oraz
+            doskonalą umiejętności ogólnorozwojowe."
           />
           {/* <OfferData image={therapy4Image}
         heading="Kinezjotaping"

@@ -8,6 +8,8 @@ const OfferData = (props) => {
         </div>
         <h4>{props.heading}</h4>
         <p>{props.text}</p>
+        <p>{props.text2}</p>
+        <p>{props.text3}</p>
     </div>
   )
 }

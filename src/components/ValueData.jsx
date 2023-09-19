@@ -8,6 +8,7 @@ class ValueData extends Component {
         <div className="des-text">
           <h2>{this.props.heading}</h2>
           <p>{this.props.text}</p>
+          <p>{this.props.text2}</p>
         </div>
         <div className="image">
           <img src={this.props.img1} alt="terapia-logopeda-1" />
