@@ -13,7 +13,7 @@ I leveraged a variety of technologies and tools to create this website, includin
 
 - **Front-end:** React.js was the backbone for this project. Apart from the visual design, I focused on the content quality, meta titles and descriptions, as well as h1 tags and other nitty gritty SEO thingies in order to further improve the page's Google ranking.
 
-- **Back-end:** I also used Node.js with Nodemailer to receive emails from potential customers, later gave up this idea due to long time of email sending (check this functionality [here]((https://logopeda-wiola.onrender.com/kontakt))!
+- **Back-end:** I also used Node.js with Nodemailer to receive emails from potential customers, later gave up this idea due to long time of email sending - (check this functionality [here](https://logopeda-wiola.onrender.com/kontakt))!
 
 - **Database:** I used MongoDB for this project.
 
