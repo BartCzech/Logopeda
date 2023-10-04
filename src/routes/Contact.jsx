@@ -40,7 +40,7 @@ const Contact = () => {
         <div className="content-container">
           <Action first="Numer telefonu: " second="Adres email: " />
         </div>
-        {/* <ContactForm /> */}
+        <ContactForm />
         <div className="footer">
           <Footer />
         </div>
