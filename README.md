@@ -1,8 +1,20 @@
-# React + Vite
+# Speech Therapy Website - https://www.logopeda-czechowice.pl/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project is a user-friendly website I developed for my mom, who is a passionate speech therapist starting her own little business.
 
-Currently, two official plugins are available:
+## Key Features
+- **Responsive Design:** The website is designed to provide an optimal viewing experience across various devices, such as smartphones and tablets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User-Friendly Navigation:** A well-organized menu and intuitive layout make it easy for visitors to find crucial information on the page.
+
+## Technologies Used
+I leveraged a variety of technologies and tools to create this website, including:
+
+- **Front-end:** React.js was the backbone for this project. Apart from the visual design, I focused on the content quality, meta titles and descriptions, as well as h1 tags and other nitty gritty SEO thingies in order to further improve the page's Google ranking.
+
+- **Back-end:** I also used Node.js with Nodemailer to receive emails from potential customers, later gave up this idea due to long time of email sending (check this functionality [here]((https://logopeda-wiola.onrender.com/kontakt))!
+
+- **Database:** I used MongoDB for this project.
+
+- **Hosting and Deployment:** For the hosting provider I chose [cyber_Folks](https://cyberfolks.pl/).
